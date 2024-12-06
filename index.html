@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amadea Academy - Make Chat Easy</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/logo-trans-removebg-preview.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload image
+  -->
+  <link rel="preload" as="image" href="./assets/images/bg-trans.png">
+</head>
+
+<body id="top">
+  <div class="loader-screen">
+    <div class="loader-content">
+      <img src="assets/images/logo-trans-removebg-preview.png" alt="Your Logo" class="loader-logo">
+      <div class="loader-text" style="display: flex; justify-content: center; align-items: center;">
+        <span id="loader-count">0</span><small>%</small>
+      </div>
+      <p>Loading, please wait...</p>
+    </div>
+  </div>
+  
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="index.html" class="logo"><img src="assets/images/logo-2.jpg" width="190px" alt=""></a>
+      </h1>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+          
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://tawk.to/amadeaacademy" class="navbar-link" data-nav-link>Learn with Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#insight" class="navbar-link" data-nav-link>Insight</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="https://tawk.to/amadeaacademy" style="text-decoration: none;"><button class="btn btn-secondary">Learn With Us</button></a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+     <!-- 
+        - #HERO
+      -->
+
+<section class="section hero" id="home">
+  <div class="container">
+
+    <figure class="bg-trans.png">
+      <img src="./assets/images/bg-trans.png" width="804" height="643" loading="lazy" alt="Hero banner showing inclusivity in education" class="w-100">
+    </figure>
+
+    <div class="hero-content">
+
+      <h2 class="h1 hero-title">Inclusive Education for Neurodivergent Learners</h2>
+
+<p class="section-text">
+  Amadea Academy creates learning environments that empower neurodivergent students. Join us in making education accessible for all.
+</p>
+
+
+      <form action="" class="hero-form">
+        <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="Enter Your Email" required class="input-field">
+
+        <button type="submit" class="btn btn-primary">Learn With Us</button>
+      </form>
+
+      <ul class="hero-list">
+
+        <li class="hero-item">
+          <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+          <span class="span">Customizable Learning Paths</span>
+        </li>
+
+        <li class="hero-item">
+          <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+          <span class="span">Assistive Technologies</span>
+        </li>
+
+        <li class="hero-item">
+          <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+          <span class="span">Adaptive Learning Features</span>
+        </li>
+
+        <li class="hero-item">
+          <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+          <span class="span">Sensory-Friendly Resources</span>
+        </li>
+
+        <li class="hero-item">
+          <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+          <span class="span">Peer Support & Community</span>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section features" id="about">
+        <div class="container">
+
+          <div class="features-content">
+
+            <h2 class="h2 section-title">About Amadea Academy</h2>
+
+            <p class="section-text">
+              Empowering neurodivergent learners with inclusive tools and accessible resources for a brighter future.
+            </p>
+
+            <ul class="features-list">
+
+              <li class="features-item">
+                <img src="./assets/images/features-icon-4.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Custom Learning Paths</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/features-icon-2.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Assistive Technologies</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/features-icon-3.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Sensory-Friendly Resources</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/features-icon-1.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Community Support</h3>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="banner-wrapper">
+
+            <!-- <figure class="features-banner one">
+              <video src="./assets/images/v2.mp4" width="600" height="500" autoplay muted loop playsinline 
+                class="w-100"></video>
+            </figure> -->
+          
+            <figure class="features-banner two">
+              <video src="./assets/images/v1.mp4" width="436" height="311" autoplay muted loop playsinline 
+                class="w-100" controls></video>
+            </figure>
+          
+          </div>
+          
+        </section>
+        
+        
+        <!-- 
+          - #SERVICE
+        -->
+        
+        <!-- <section class="section service" id="services">
+          <div class="container">
+        
+            <h2 class="h2 section-title">Our Solutions For You</h2>
+        
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque
+              venenatis,
+              massa gravida donec orci.
+            </p>
+        
+            <ul class="service-list">
+        
+              <li>
+                <div class="service-card">
+        
+                  <figure class="card-banner">
+                    <img src="./assets/images/service-1.gif" width="728" height="344" loading="lazy" alt="support"
+                      class="w-100">
+                  </figure>
+        
+                  <div class="card-content">
+        
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Support</a>
+                    </h3>
+        
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis consectetur
+                      adipiscing elit.
+                    </p>
+        
+                    <a href="#" class="btn-link">
+                      <span class="span">Learn More</span>
+        
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+        
+                  </div>
+        
+                </div>
+              </li>
+        
+              <li>
+                <div class="service-card">
+        
+                  <figure class="card-banner">
+                    <img src="./assets/images/service-2.gif" width="728" height="344" loading="lazy" alt="Engagement"
+                      class="w-100">
+                  </figure>
+        
+                  <div class="card-content">
+        
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Engagement</a>
+                    </h3>
+        
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis consectetur
+                      adipiscing elit.
+                    </p>
+        
+                    <a href="#" class="btn-link">
+                      <span class="span">Learn More</span>
+        
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+        
+                  </div>
+        
+                </div>
+              </li>
+        
+              <li>
+                <div class="service-card">
+        
+                  <figure class="card-banner">
+                    <img src="./assets/images/service-3.gif" width="728" height="344" loading="lazy" alt="Marketing"
+                      class="w-100">
+                  </figure>
+        
+                  <div class="card-content">
+        
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Marketing</a>
+                    </h3>
+        
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis consectetur
+                      adipiscing elit.
+                    </p>
+        
+                    <a href="#" class="btn-link">
+                      <span class="span">Learn More</span>
+        
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+        
+                  </div>
+        
+                </div>
+              </li>
+        
+            </ul>
+        
+          </div>
+        </section> -->
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+<section class="section about" id="features">
+  <div class="container">
+
+    <h2 class="h2 section-title">What We Do</h2>
+
+    <p class="section-text">
+      At Amadea Academy, we provide inclusive tools to empower neurodivergent learners and support all learning styles.
+    </p>
+
+    <ul class="about-list">
+
+      <li>
+        <div class="about-card about-card-1">
+
+          <figure class="card-banner">
+            <img src="./assets/images/about-img-1.svg" width="94" height="94" loading="lazy" alt="Custom Learning Paths">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3" style="color: white;">Custom Learning Paths</h3>
+
+            <p class="card-text">Adaptive paths that match individual styles and pace.</p>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="about-card about-card-2">
+
+          <figure class="card-banner">
+            <img src="./assets/images/about-img-2.svg" width="94" height="94" loading="lazy" alt="Assistive Tech">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3" style="color: white;">Assistive Tech</h3>
+
+            <p class="card-text">Tools like screen readers and voice commands.</p>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="about-card about-card-3">
+
+          <figure class="card-banner">
+            <img src="./assets/images/about-img-3.svg" width="94" height="94" loading="lazy" alt="Sensory-Friendly">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3" style="color: white;">Sensory-Friendly</h3>
+
+            <p class="card-text">Content designed for a comfortable experience.</p>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="about-card about-card-4">
+
+          <figure class="card-banner">
+            <img src="./assets/images/about-img-4.svg" width="94" height="94" loading="lazy" alt="Peer Support">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3" style="color: white;">Peer Support</h3>
+
+            <p class="card-text">Connect and collaborate with fellow learners.</p>
+
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+    <p class="section-text">
+      <a href="https://tawk.to/amadeaacademy" class="btn-link">
+        <span class="span">View All Features</span>
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+    </p>
+
+  </div>
+</section>
+
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+<!-- 
+<section class="section stats" id="insight">
+  <div class="container">
+
+    <figure class="stats-banner">
+      <img src="./assets/images/stats-banner.png" width="619" height="482" loading="lazy" alt="Statistics banner"
+        class="w-100">
+    </figure>
+
+    <ul class="stats-list">
+
+      <li class="stats-item purple">
+        <h3 class="item-title">
+          386
+          <span class="span">million</span>
+        </h3>
+
+        <p class="stats-text">Tasks Streamlined on Amadea Academy</p>
+      </li>
+
+      <li class="stats-item red">
+        <h3 class="item-title">
+          999
+          <span class="span">million</span>
+        </h3>
+
+        <p class="stats-text">Global Users Connected</p>
+      </li>
+
+      <li class="stats-item green">
+        <h3 class="item-title">
+          200
+          <span class="span">percent</span>
+        </h3>
+
+        <p class="stats-text">Revenue Boost Achieved</p>
+      </li>
+
+      <li class="stats-item yellow">
+        <h3 class="item-title">
+          50
+          <span class="span">tools</span>
+        </h3>
+
+        <p class="stats-text">Integrated Software Solutions</p>
+      </li>
+
+    </ul>
+
+  </div>
+</section> -->
+
+
+
+
+
+
+      <!-- 
+        - #TEAM
+      -->
+
+            </div>
+            <section class="section app">
+              <div class="tag" style="width: 100%; display: flex; justify-content: center; margin-bottom: 50px;">
+                <h2 class="title" style="font-size: 5rem; color: aliceblue;">Meet Our Team</h2>
+              </div>
+        <div class="containerr" style="justify-content: center; display: flex; width: 100%;">
+          <div class="our-team">
+            <div class="team-member">
+              <img src="assets/images/t1.jpg" alt="Member 1" class="team-img">
+              <div class="member-info">
+                <h3 class="member-name">C Francisca Onwufuju</h3>
+                <p class="member-role">Director</p>
+              </div>
+            </div>
+              <div class="our-team">
+                <div class="team-member">
+                  <img src="assets/images/t1.jpg" alt="Member 1" class="team-img">
+                  <div class="member-info">
+                    <h3 class="member-name">Steve Unegbu</h3>
+                    <p class="member-role">Director</p>
+                  </div>
+                </div>
+            <div class="team-member">
+              <img src="assets/images/t2.jpg" alt="Member 2" class="team-img">
+              <div class="member-info">
+                <h3 class="member-name">Jacinta Oseghale</h3>
+                <p class="member-role">Legal Advisory Council</p>
+              </div>
+            </div>
+            
+            <!-- Repeat for other team members -->
+            
+          </div>
+        </div>
+      </section>
+      
+      <section class="section partners">
+        <div class="containert">
+          <h2 class="section-titlee">Project Support/Partners</h2>
+          <div class="partners-grid">
+            <div class="partner-logo">
+              <img src="assets/images/p2.png" alt="Partner 2">
+            </div>
+            <div class="partner-logo">
+              <img src="assets/images/p3.png" alt="Partner 3">
+            </div>
+            <div class="partner-logo">
+              <img src="assets/images/logo-2.jpg" alt="Partner 4">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+      <section class="section accreditation">
+        <div class="containerw">
+          <h2 class="section-titlel">Our Accreditation</h2>
+          <div class="accreditation-content">
+            <div class="accreditation-image">
+              <img src="assets/images/p1.png" alt="CPD Accreditation Certificate">
+            </div>
+            <div class="accreditation-description">
+              <p>
+                We are proud to be certified as an <strong>Approved CPD Provider</strong> by 
+                <strong>The CPD Group.</strong> This accreditation highlights our commitment to 
+                delivering professional development programs of the highest standards.
+              </p>
+              <p>
+                <!-- Certificate ID: <strong>#785240</strong> | Issued: <strong>23/09/2024</strong> -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section support">
+        <div class="container">
+
+          <div class="support-content">
+            <h2 class="h2 section-title">Ready to Get Started?</h2>
+
+            <p class="section-text">
+              Join Amadea Academy today and experience personalized learning like never before. Take the first step towards an inclusive educational journey.
+            </p>
+          </div>
+
+          <a href="https://tawk.to/amadeaacademy" class="btn btn-primary">Get Started Now</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+<!-- 
+  #CONTACT US SECTION 
+  -->
+<section class="contact-us-section" id="contact">
+  <h2 class="contact-title">Get in Touch with Us</h2>
+  <div class="contact-container">
+    
+    <!-- Contact Info Section -->
+    <div class="contact-info-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <ion-icon name="call-outline"></ion-icon>
+          <p>+447460057150</p>
+        </div>
+        <div class="contact-item">
+          <ion-icon name="mail-outline"></ion-icon>
+          <p>contact@amadeaacademy.com</p>
+        </div>
+        <!-- <div class="contact-item">
+          <ion-icon name="logo-instagra"></ion-icon>
+          <p>148 Rose Bowl, Portland Crescent, Leeds, LS1 3HB, UK</p>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Form Section -->
+    <div class="contact-form-container">
+      <form class="contact-form" id="contact-form">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <button class="contact-submit-button">Send Message</button>
+      </form>
+    </div>
+</div>
+</section>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="#" class="logo"><img src="assets/images/logo-3.jpg" width="240px" alt=""></a>
+
+          <figure class="footer-img">
+            <img src="./assets/images/footer-img.png" width="264px" height="226" loading="lazy" aria-hidden="true"
+              class="w-100">
+          </figure>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title"> Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Design</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Social Marketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">WordPress</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Content Writing</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick Links</p>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#features" class="footer-link">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="https://tawk.to/amadeaacademy" class="footer-link">Live Chat</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-1.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+
+            <span class="span">
+              Call Us:
+              <a href="tel:+447460057150" class="footer-item-link">+4 4746 005 7150</a>
+            </span>
+          </li>
+
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-3.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+
+            <span class="span">
+              Mail Us:
+              <a href="mailto:contact@amadeaacademy.com" class="footer-item-link">contact@amadeaacademy.com</a>
+            </span>
+          </li>
+          <li class="footer-item">
+            <img src="./assets/images/linkedin-icon.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+          
+            <span class="span">
+              Follow Us on LinkedIn:
+              <a href="http://www.linkedin.com/company/amadea-academy" class="footer-item-link" target="_blank" rel="noopener noreferrer">
+                Amadea Academy
+              </a>
+            </span>
+          </li>
+          
+          <li class="footer-item">
+            <img src="./assets/images/youtube-icon.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+          
+            <span class="span">
+              Subscribe on YouTube:
+              <a href="http://www.youtube.com/@AmadeaAcademyLimited" class="footer-item-link" target="_blank" rel="noopener noreferrer">
+                Amadea Academy Limited
+              </a>
+            </span>
+          </li>
+          
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <span class="span">Amadea Academy</span>. All rights reserved by <a href="https://www.instagram.com/bi_tech2.0/"
+            class="copyright-link">BiTech</a>
+        </p>
+
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

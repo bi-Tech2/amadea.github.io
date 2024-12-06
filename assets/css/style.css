@@ -1561,6 +1561,47 @@ body {
 
 
 
+.mission-vision {
+  padding: 2.5rem 0;
+  text-align: center;
+  background: #fff5ef;
+  margin-top: -60px;
+  align-items: center;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.filter-btn {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #ff6600;
+  background-color: white;
+  color: #ff6600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.filter-btn.active {
+  background-color: #ff6600;
+  color: white;
+}
+
+.filter-content .content-box {
+  display: none;
+}
+
+.filter-content .content-box h2 {
+  margin-bottom: 3rem;
+  color: #ff6600;
+}
+
+
+
 
 /* Section Container */
 .section.accreditation {

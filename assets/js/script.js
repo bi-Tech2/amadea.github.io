@@ -59,3 +59,22 @@ const interval = setInterval(() => {
     document.body.style.overflow = 'auto'; // Re-enable scrolling if needed
   }
 }, 30); // Adjust speed as needed
+
+
+
+document.querySelectorAll('.filter-btn').forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    // Remove active class from all buttons
+    document.querySelectorAll('.filter-btn').forEach((btn) => btn.classList.remove('active'));
+    // Add active class to the clicked button
+    e.target.classList.add('active');
+
+    // Get the filter content to display
+    const filter = e.target.getAttribute('data-filter');
+
+    // Show/Hide content boxes
+    document.querySelectorAll('.content-box').forEach((box) => {
+      box.style.display = box.id === filter ? 'block' : 'none';
+    });
+  });
+});
